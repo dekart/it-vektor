@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title><%= @page.title %></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/assets/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">IT Вектор</a></h1>
+		<h2>Создание интернет-порталов</h2>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="/">О компании</a></li>
+			<li><a href="#">Разработка</a></li>
+			<li><a href="#">Поддержка</a></li>
+			<li><a href="#">Технологии</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</div>
+</div>
+<!-- end header -->
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<div class="post">
+			<h1 class="title"><%= @page.title %></h1>
+			<div class="entry">
+				<%= @page.content %>
+			</div>
+			<!--<div class="meta">
+				<p class="byline">Posted on April 21, 2008 byFreeCssTemplates</p>
+				<p class="links"><a href="#" class="more">Read full article</a> <b>|</b> <a href="#" class="comments">Comments (32)</a></p>
+			</div>-->
+		</div>
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+		<ul>
+			<li>
+				<h2>Задавайте вопросы</h2>
+				<p>
+					По любым вопросам, касающимся разработки и поддержки проектов вы 
+					можете обращаться по телефону:
+					<center style="font-size: 22px; font-weight: bold;">(351) 235-51-20</center>
+				</p>
+			</li>
+		</ul>
+	</div>
+	<!-- end sidebar -->
+	<div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end page -->
+<!-- start footer -->
+<div id="footer">
+	<p id="legal">(c) 2008 ООО "Ай Ти Вектор"</p>
+</div>
+<!-- end footer -->
+</body>
+</html>
